@@ -11,9 +11,9 @@ builder.Services.AddSwaggerGen(options =>
 {
     options.SwaggerDoc("v1", new OpenApiInfo
     {
-        Title = "ToDo API",
+        Title = "API",
         Version = "v1",
-        Description = "An ASP.NET Core Web API for managing ToDo items",
+        Description = "API",
     });
     var filePath = Path.Combine(AppContext.BaseDirectory, "WebApplication2.xml");
     options.IncludeXmlComments(filePath);
