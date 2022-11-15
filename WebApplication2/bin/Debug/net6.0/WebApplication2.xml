@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebApplication2</name>
+    </assembly>
+    <members>
+        <member name="T:WebApplication2.Controllers.UrlController">
+            <summary>
+            Word controller for word type functions.
+            </summary>
+        </member>
+        <member name="M:WebApplication2.Controllers.UrlController.GetUrlsOnWebsite(System.String)">
+            <summary>
+            Gets all urls from the website.
+            </summary>
+            <param name="url">Url to the website to get urls from.</param>
+            <returns></returns>
+        </member>
+        <member name="T:WebApplication2.Controllers.WordController">
+            <summary>
+            Word controller for word type functions.
+            </summary>
+        </member>
+        <member name="M:WebApplication2.Controllers.WordController.Generate(System.String,System.Int32)">
+            <summary>
+            Generates words randomly with letters and count provided.
+            </summary>
+            <param name="letters">String of letters to use during generation.</param>
+            <param name="count">Length of words and letters in them.</param>
+            <returns></returns>
+        </member>
+        <member name="P:WebApplication2.Models.UrlResponse.Urls">
+            <summary>
+            List of urls.
+            </summary>
+        </member>
+        <member name="P:WebApplication2.Models.UrlResponse.Length">
+            <summary>
+            Length of list of urls.
+            </summary>
+        </member>
+        <member name="M:WebApplication2.Services.WordService.Generate(System.Char[],System.Int32)">
+            <summary>
+            wdwdwd
+            </summary>
+            <param name="letters"></param>
+            <param name="count"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
